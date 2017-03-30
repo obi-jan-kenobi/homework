@@ -95,12 +95,12 @@ public class Controller implements Initializable {
             }
         });
 
-       /* observableList.addListener(new ListChangeListener<String>() {
+       observableList.addListener(new ListChangeListener<String>() {
             @Override
             public void onChanged(Change<? extends String> c) {
                 listView.scrollTo(observableList.size());
             }
-        });*/
+        });
 
     }
 
